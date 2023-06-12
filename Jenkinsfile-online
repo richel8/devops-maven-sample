@@ -13,7 +13,7 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'harbor-id'
         GITHUB_CREDENTIAL_ID = 'gothub-token'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
+        REGISTRY = '172.20.54.113:5000'
         DOCKERHUB_NAMESPACE = 'ks-devops-harbor'
         GITHUB_ACCOUNT = 'richel8'
         APP_NAME = 'devops-sample'
